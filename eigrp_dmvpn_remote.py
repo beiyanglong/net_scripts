@@ -3,14 +3,14 @@ lines = open('input').read().split('\n')
 
 Site_Name               =       lines[0].strip()
 Loopback0_IP            =       lines[1].strip()
-Tunnel0_IP				=       lines[2].strip()
+Tunnel0_IP				      =       lines[2].strip()
 Remote_Public_IP        =       lines[3].strip()
 Default_Gateway_IP      =       lines[4].strip()
 Remote_subnet1          =       lines[5].strip()
 Remote_subnet2          =       lines[6].strip()
 Remote_subnet3          =       lines[7].strip()
 Remote_subnet4          =       lines[8].strip()
-SW_next_hop_IP          =		lines[9].strip()
+SW_next_hop_IP          =		    lines[9].strip()
 
 print "\n\n"
 print "========HERE ARE ALL THE INPUTS========"
